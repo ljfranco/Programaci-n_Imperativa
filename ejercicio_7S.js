@@ -81,9 +81,9 @@ console.log(sandwich("pollo", "blanco", true, true, false, false, true, false));
 
 const numeroSecreto = (miNumero) => {
 
-    const elNumero = Math.round(Math.random() * 10);
+    const elNumero = Math.round(Math.random() * 10)
 
-    (miNumero == elNumero) ? console.log(`Exelente ingresaste el numero ${miNumero} y el numero seceto era ${elNumero}`) : console.log(`Vuelve a intentarlo, el numero secreto era ${elNumero}`)
+    miNumero == elNumero ? console.log(`Exelente ingresaste el numero ${miNumero} y el numero seceto era ${elNumero}`) : console.log(`Vuelve a intentarlo, el numero secreto era ${elNumero}`)
 }
 
 numeroSecreto(parseInt(prompt("Ingrese un numero entre 1 y 10 ")))
@@ -98,7 +98,7 @@ numeroSecreto(parseInt(prompt("Ingrese un numero entre 1 y 10 ")))
 
 const abrirParacaidas = (velocidad, altura) => {
     if (velocidad < 1000 && altura >= 2000 && altura <= 3000) {
-        console.log("El paracaidas debe abrirse");
+        console.log("El paracaidas debe abrirse")
     } else {
         console.log("El paracaidas no debe abrirse")
     }
@@ -121,15 +121,15 @@ const traductor = (palabra) => {
 
     switch(palabra){
         
-        case "perro": console.log("dog");
+        case "perro": console.log("dog")
             break
-        case "pelota": console.log("ball");
+        case "pelota": console.log("ball")
             break
-        case "arbol": console.log("tree");
+        case "arbol": console.log("tree")
             break
-        case "genio": console.log("genius");
+        case "genio": console.log("genius")
             break
-        default : console.log("La palabra igresada es incorrecta");
+        default : console.log("La palabra igresada es incorrecta")
     }
     
 }
@@ -169,7 +169,7 @@ const valoracion = (valor)=>{
             break
         default : console.log("Ingresaste un valor invalido");    
     }
-    console.log("Muchas gracias por tu visita");
+    console.log("Muchas gracias por tu visita")
 
 }
 
