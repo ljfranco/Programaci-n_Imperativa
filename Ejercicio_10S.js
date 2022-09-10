@@ -94,6 +94,7 @@ console.log(juntarPeliculas(peliculas,peliculasAnimadas));
 // PD: por precaución, guardá el elemento que vas a eliminar en una variable.
 
 
+// let juego = array2.pop()
 
 
 // 5. Finalmente, te envían dos arrays con calificaciones que hacen distintos usuarios
